@@ -1,23 +1,47 @@
 {
+  "cliente_id": "C0001",
   "nome": "João Silva",
   "idade": 32,
   "profissao": "Analista de Sistemas",
   "renda_mensal": 5000.00,
-  "perfil_investidor": "moderado",
+
+  "nivel_conhecimento_financeiro": "iniciante",
+  "perfil_investidor": "conservador",
+  "aceita_risco": false,
+  "preferencia_liquidez": "alta",
   "objetivo_principal": "Construir reserva de emergência",
+
   "patrimonio_total": 15000.00,
   "reserva_emergencia_atual": 10000.00,
-  "aceita_risco": false,
+  "reserva_emergencia_meta": 15000.00,
+
+  "despesas_estimadas": {
+    "fixas_mensais": 2200.00,
+    "variaveis_mensais": 1300.00,
+    "economia_alvo_mensal": 700.00
+  },
+
+  "preferencias": {
+    "canal_preferido": "chat",
+    "tom_de_voz": "acessivel_informal",
+    "quer_alertas": true,
+    "frequencia_alertas": "mensal"
+  },
+
   "metas": [
     {
+      "meta_id": "M001",
       "meta": "Completar reserva de emergência",
       "valor_necessario": 15000.00,
-      "prazo": "2026-06"
+      "prazo": "2026-06",
+      "prioridade": "alta"
     },
     {
+      "meta_id": "M002",
       "meta": "Entrada do apartamento",
       "valor_necessario": 50000.00,
-      "prazo": "2027-12"
+      "prazo": "2027-12",
+      "prioridade": "media"
     }
   ]
 }
