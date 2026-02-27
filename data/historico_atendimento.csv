@@ -9,5 +9,5 @@ A0007,C0001,2025-10-12T20:10:00,chat,Metas financeiras,acompanhamento_progresso,
 A0008,C0001,2025-10-18T16:30:00,email,Atualização cadastral,atualizacao_dados,Cliente solicitou atualização de e-mail e telefone; enviado passo a passo e confirmação,suporte_faq.json,sim,5,nao
 A0009,C0001,2025-10-25T15:05:00,chat,LCI/LCA,explicacao_produto,Cliente perguntou sobre carência e isenção de IR e por que liquidez não é diária na maioria dos casos,produtos_financeiros.json,sim,4,nao
 A0010,C0001,2025-11-02T10:44:00,chat,Gastos do mês,analise_gastos,Cliente pediu resumo por categoria e alerta de gastos recorrentes (streaming/academia),transacoes.csv,sim,5,sim
-A0011,C0001,2025-11-10T13:12:00,chat,Fundo multimercado,explicacao_risco,Cliente pediu entendimento de risco médio, volatilidade e prazo recomendado (sem indicar compra),produtos_financeiros.json,sim,4,nao
+A0011,C0001,2025-11-10T13:12:00,chat,Fundo multimercado,explicacao_risco,"Cliente pediu entendimento de risco médio, volatilidade e prazo recomendado (sem indicar compra)",produtos_financeiros.json,sim,4,nao
 A0012,C0001,2025-11-18T09:20:00,chat,Imposto de renda,duvida_tributacao,Cliente perguntou regra geral de IR em renda fixa e diferença para isentos; orientado como “conceito” e sugerido consultar fonte oficial,faq_conceitos.json,nao,3,sim
