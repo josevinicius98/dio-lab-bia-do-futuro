@@ -1,11 +1,26 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+transacao_id,cliente_id,data,descricao,categoria,valor,tipo,meio_pagamento,recorrente,essencial
+T0001,C0001,2025-10-01,Salário,receita,5000.00,entrada,transferencia,sim,sim
+T0002,C0001,2025-10-02,Aluguel,moradia,1200.00,saida,pix,sim,sim
+T0003,C0001,2025-10-03,Supermercado,alimentacao,450.00,saida,cartao_debito,nao,sim
+T0004,C0001,2025-10-05,Netflix,lazer,55.90,saida,cartao_credito,sim,nao
+T0005,C0001,2025-10-07,Farmácia,saude,89.00,saida,cartao_debito,nao,sim
+T0006,C0001,2025-10-10,Restaurante,alimentacao,120.00,saida,cartao_credito,nao,nao
+T0007,C0001,2025-10-12,Uber,transporte,45.00,saida,cartao_credito,nao,nao
+T0008,C0001,2025-10-15,Conta de Luz,moradia,180.00,saida,pix,sim,sim
+T0009,C0001,2025-10-18,Internet,moradia,110.00,saida,pix,sim,sim
+T0010,C0001,2025-10-20,Academia,saude,99.00,saida,cartao_credito,sim,nao
+T0011,C0001,2025-10-25,Combustível,transporte,250.00,saida,cartao_credito,nao,sim
+T0012,C0001,2025-10-28,Aporte Reserva Emergência,reserva,700.00,saida,transferencia,sim,sim
+
+T0013,C0001,2025-11-01,Salário,receita,5000.00,entrada,transferencia,sim,sim
+T0014,C0001,2025-11-02,Aluguel,moradia,1200.00,saida,pix,sim,sim
+T0015,C0001,2025-11-03,Supermercado,alimentacao,420.00,saida,cartao_debito,nao,sim
+T0016,C0001,2025-11-05,Streaming (Netflix),lazer,55.90,saida,cartao_credito,sim,nao
+T0017,C0001,2025-11-06,Plano de saúde,saude,180.00,saida,pix,sim,sim
+T0018,C0001,2025-11-08,Restaurante,alimentacao,95.00,saida,cartao_credito,nao,nao
+T0019,C0001,2025-11-10,Transporte (Uber),transporte,60.00,saida,cartao_credito,nao,nao
+T0020,C0001,2025-11-12,Conta de Luz,moradia,175.00,saida,pix,sim,sim
+T0021,C0001,2025-11-14,Internet,moradia,110.00,saida,pix,sim,sim
+T0022,C0001,2025-11-18,Farmácia,saude,70.00,saida,cartao_debito,nao,sim
+T0023,C0001,2025-11-22,Combustível,transporte,230.00,saida,cartao_credito,nao,sim
+T0024,C0001,2025-11-26,Aporte Reserva Emergência,reserva,700.00,saida,transferencia,sim,sim
