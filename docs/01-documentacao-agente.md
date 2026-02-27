@@ -5,34 +5,38 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Muitas pessoas tem dificuldade para entender conceitos básicos de finanças pessoais, como reserva de emergência, tipos de investimenos e como organizar gastos.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Um agente educativo que explica conceitos financeiros de forma simples, usando dados do próprio cliente como exemplo, mas sem dar recomendações de investimentos.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas iniciantes em finanças pessoais que queiram aprender a organizar suas finanças.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Zé
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+- Educativo
+- Paciente
+- Não julga gastos do clientes
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+- Acessível
+- Informal
+- Como um professor particular
 
 ### Exemplos de Linguagem
 - Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
@@ -59,10 +63,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Streamlit] |
+| LLM | [Ollama (local) |
+| Base de Conhecimento | [JSON/CSV mockados] |
+| Validação | [Checagem de alucinações] |
 
 ---
 
@@ -70,12 +74,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Agente só responde com base nos dados fornecidos
+- [x] Respostas incluem fonte da informação
+- [x] Quando não sabe, admite e redireciona
+- [x] Não faz recomendações de investimento sem perfil do cliente
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não faz recomendações de investimento
+- Não acessa a dados bancários sensíveis
+- Não substítui um profissional certificado
