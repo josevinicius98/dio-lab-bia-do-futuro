@@ -1,6 +1,13 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+atendimento_id,cliente_id,data_hora,canal,tema,intencao,resumo,fonte_base,resolvido,satisfacao,follow_up
+A0001,C0001,2025-09-05T10:12:00,chat,Orçamento mensal,orientacao_orcamento,Cliente pediu ajuda para separar gastos fixos e variáveis e montar regra 50/30/20,faq_conceitos.json,sim,5,nao
+A0002,C0001,2025-09-15T14:08:00,chat,CDB,explicacao_produto,Cliente perguntou diferença entre CDB com liquidez diária vs vencimento e como funciona rentabilidade atrelada ao CDI,produtos_financeiros.json,sim,4,nao
+A0003,C0001,2025-09-22T09:40:00,telefone,Problema no app,suporte_tecnico,Erro ao visualizar extrato após atualização do app; orientado limpar cache e atualizar versão,suporte_faq.json,sim,4,nao
+A0004,C0001,2025-10-01T11:03:00,chat,Tesouro Selic,explicacao_produto,Cliente pediu explicação de Tesouro Selic com foco em reserva e liquidez e alertas de marcação a mercado,produtos_financeiros.json,sim,5,nao
+A0005,C0001,2025-10-03T18:22:00,chat,Reserva de emergência,simulacao_meta,Cliente quis calcular quanto falta para completar reserva e quanto poupar por mês até 2026-06,perfil_investidor.json,sim,5,nao
+A0006,C0001,2025-10-07T08:55:00,chat,Cartão de crédito,educacao_juros,Cliente pediu explicação de juros do rotativo e por que parcelar pode sair mais caro,faq_conceitos.json,sim,4,nao
+A0007,C0001,2025-10-12T20:10:00,chat,Metas financeiras,acompanhamento_progresso,Cliente acompanhou progresso da reserva e pediu sugestão de lembretes mensais (sem recomendação),perfil_investidor.json,sim,5,sim
+A0008,C0001,2025-10-18T16:30:00,email,Atualização cadastral,atualizacao_dados,Cliente solicitou atualização de e-mail e telefone; enviado passo a passo e confirmação,suporte_faq.json,sim,5,nao
+A0009,C0001,2025-10-25T15:05:00,chat,LCI/LCA,explicacao_produto,Cliente perguntou sobre carência e isenção de IR e por que liquidez não é diária na maioria dos casos,produtos_financeiros.json,sim,4,nao
+A0010,C0001,2025-11-02T10:44:00,chat,Gastos do mês,analise_gastos,Cliente pediu resumo por categoria e alerta de gastos recorrentes (streaming/academia),transacoes.csv,sim,5,sim
+A0011,C0001,2025-11-10T13:12:00,chat,Fundo multimercado,explicacao_risco,Cliente pediu entendimento de risco médio, volatilidade e prazo recomendado (sem indicar compra),produtos_financeiros.json,sim,4,nao
+A0012,C0001,2025-11-18T09:20:00,chat,Imposto de renda,duvida_tributacao,Cliente perguntou regra geral de IR em renda fixa e diferença para isentos; orientado como “conceito” e sugerido consultar fonte oficial,faq_conceitos.json,nao,3,sim
